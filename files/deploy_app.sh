@@ -14,7 +14,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. My Cat is named Smokey, this is not a picture of Smokey.  This is a test 
+  Welcome to ${PREFIX}'s app. My Cat is named Smokey, this is not a picture of Smokey.  This is a test !!!!
   <!-- END -->
   
   </div>
