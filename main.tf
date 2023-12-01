@@ -29,7 +29,7 @@ resource "azurerm_resource_group" "myresourcegroup" {
  }
 }
 
-data "azurerm_resource_group" "example" {
+data "azurerm_resource_group" "myresourcegroup" {
   name = azurerm_resource_group.myresourcegroup.name
 }
 
