@@ -13,3 +13,7 @@ output "catapp_ip" {
 output "id" {
   value = data.azurerm_resource_group.myresourcegroup.name
 }
+
+output "subnet_id" {
+  value = data.azurerm_subnet.subnet.id
+}
