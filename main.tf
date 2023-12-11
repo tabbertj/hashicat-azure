@@ -29,10 +29,6 @@ resource "azurerm_resource_group" "myresourcegroup" {
  }
 }
 
-data "azurerm_resource_group" "myresourcegroup" {
-  name = azurerm_resource_group.myresourcegroup.name
-}
-
 resource "azurerm_virtual_network" "vnet" {
   name                = "${var.prefix}-vnet"
   location            = azurerm_resource_group.myresourcegroup.location
